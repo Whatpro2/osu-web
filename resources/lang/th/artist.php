@@ -19,17 +19,17 @@
  */
 
 return [
-    'page_description' => 'Featured artists on osu!',
-    'title' => 'Featured Artists',
+    'page_description' => 'ศิลปินที่ถูกแนะนำบน osu!',
+    'title' => 'ศิลปินที่แนะนำ',
 
     'admin' => [
         'hidden' => 'ARTIST IS CURRENTLY HIDDEN',
     ],
 
     'beatmaps' => [
-        '_' => 'Beatmaps',
-        'download' => 'Download Beatmap Template',
-        'download-na' => 'Beatmap Template not yet available',
+        '_' => 'บิทแมพ',
+        'download' => 'ดาวน์โหลดบิทแมพตัวอย่าง',
+        'download-na' => 'ยังไม่มีบิทแมพตัวอย่างให้',
     ],
 
     'index' => [
@@ -37,12 +37,12 @@ return [
     ],
 
     'links' => [
-        'site' => 'Official Website',
+        'site' => 'เว็บไชต์ทางการ',
     ],
 
     'songs' => [
-        '_' => 'Songs',
+        '_' => 'เพลง',
         'count' => '1 song|:count songs',
-        'exclusive' => 'osu! exclusive',
+        'exclusive' => 'พิเศษสำหรับ osu!',
     ],
 ];
